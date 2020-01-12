@@ -1,13 +1,13 @@
 # GCP Fundamentals: Core Infrastructure
 
-## GCP COmputing Architecture
-1. Infeastructure as a Service: IaaS
-   1. Compute Engine
-2. Hybrid: Kubernetes Engine
-3. Platform as a Service: PaaS
-   1. App Engine
-4. Serverless Logic: Cloud Function
-5. Managed Services
+## GCP Computing Architecture
+- Infrastructure as a Service: IaaS
+   - Compute Engine
+- Hybrid: Kubernetes Engine
+- Platform as a Service: PaaS
+   - App Engine
+- Serverless Logic: Cloud Function
+- Managed Services
 
 ## Google Network
 - Google provides user's request through edge network location for lowest latency.
