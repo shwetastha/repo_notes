@@ -2,7 +2,7 @@
 
 ## Notes
 1. [Architecting with Google Kubernetes](Architecting%20with%20Google%20Kubernetes%20Engine)
-   1. [GCP Fundamentals: Core Infrastructure](Architecting%20with%20Google%20Kubernetes%20Engine/Google%20Cloud%20Platforms%20Fundamentals:Core%20Infrastructure.md)
+   1. [GCP Fundamentals: Core Infrastructure](Architecting%20with%20Google%20Kubernetes%20Engine/Google%20Cloud%20Platform%20Fundamentals-Core%20Infrastructure.md)
 
 ## Markdown Basics
 1. Headings with `#`:
