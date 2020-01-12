@@ -2,8 +2,8 @@
 
 ## Markdown Basics
 1. Headings with `#`:
-   1. # Heading 1
-   2. ## Heading 2
+   1. `# Heading 1`
+   2. `## Heading 2`
 2. Alternate Heading `=` or `-`
    1. Heading 1 followed in next line `====`
    2. Heading 2 followed in next line `----`
