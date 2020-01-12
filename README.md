@@ -16,4 +16,5 @@
 5. Bold and Italic: `***`, `___`, `__*`, `**_`
 6. Blockquotes: `>`
 7. Lists: start with `1.` or `-`, `*`, `+`
-8. Code blocks: Indent with a tab. 
+8. Code blocks: Indent with a tab.
+9. Link: `(Link Text)[Link URL/ Relative path to folder/file]`
