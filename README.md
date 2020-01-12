@@ -18,3 +18,5 @@
 7. Lists: start with `1.` or `-`, `*`, `+`
 8. Code blocks: Indent with a tab.
 9. Link: `(Link Text)[Link URL/ Relative path to folder/file]`
+    
+[Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
