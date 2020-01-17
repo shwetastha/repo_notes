@@ -1,6 +1,6 @@
 # GCP Fundamentals: Core Infrastructure
 
-### 1. GCP Computing Architecture
+1. **GCP Computing Architecture**
 - Infrastructure as a Service: IaaS
    - Compute Engine
 - Hybrid: Kubernetes Engine
@@ -9,26 +9,26 @@
 - Serverless Logic: Cloud Function
 - Managed Services
 
-### 2. Google Network
+2. **Google Network**
 - Google provides user's request through edge network location for lowest latency.
 - Regions and Zones: 
   - Multi-Region -> Region -> Zone
   - Europe -> Europe-west2 -> Europe-west2-a
-  
-### 3. Identity Access Management [IAM]
+
+3. **Identity Access Management [IAM]**
 - Who: Google Account, google group, service account, an entire G Suite or Cloud Identity Domain
 - Can Do What: Primitive Roles, Predefined Roles and Custom Roles.
   - Broader to specific.
 - On Which Resource
 
-### 4. Virtual Private Network [VPC]
+4. **Virtual Private Network [VPC]**
 - VPC have global scope.
 - Use firewall rules to restrict access to instances.
 - Create static routes to forward trafic to specific destinations.
 - Subnets have regional scope.
 - In custom VPC network, if the size of the subnet is increased then the IP addressed of the virtual machines already on the subnet might be affected.
 
-  #### a. Compute Engine
+  a. *Compute Engine*
   - Offers managed virtual machines.
   - Machine Type: how much memory and how many virtual CPUs
   	- predefined or custom
@@ -43,7 +43,7 @@
   	- Compute engine will have the permission to terminate if it's resources are needed elsewhere.
   - Most GCP customers start off with scaling out not scaling up. 
 
-  #### b. Important VPC capabilities
+  b. *Important VPC capabilities*
   - routing tables: forward traffic from one instance to another within the same network
   	- without requiring the external ip addresses.
   	- No need for provisioning: Router or firewall instance
@@ -66,7 +66,7 @@
   	- Carrier Peering
   	- Dedicated Interconnect: for high availability and reliability. SLAs
 
-### 5. Cloud Storage
+5. **Cloud Storage**
 - Unique Key
   - Unique URL
 - Scalable Service
@@ -79,7 +79,7 @@
 - organised into buckets 
 - versioning
   
-  #### a. Cloud Storage Interactions
+  a. *Cloud Storage Interactions*
   - Multi-Regional & Regional
   	- SLAs: 99%
   	- High performance
@@ -90,7 +90,7 @@
   	- Storage transfer service
   	- transfer appliance (beta)
 
-### 6. Big Table
+6. **Big Table**
 - Managed NoSQL Big data table.
 - NoSQL schema.
 - wide column database service
@@ -102,4 +102,25 @@
 - encrypted
 - IAM to control access
 - BigTable Access Patterns
+
+7. **Cloud SQL**
+- RDMS
+- MySQL and PostgreSQL
+- Accessible by other GCP products
+- Cloud Spanner
+	- horizontal scaleability
+	- transactional consistency
+	- high availability
+	- outgrown RDBMS
+	- sharding 
+	- financial applications
+
+8. **Cloud Datastore**
+- BigTable
+- NOSQL -> Cloud Datastore
+- Structured data from App Engine
+- auto sharding and replicaiton
+- auto scaling
+- sql like queries
+- free daily qouta: storage, reads, writes deltes
 
