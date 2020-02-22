@@ -147,7 +147,65 @@ Note: re: S3:  SageMaker is just an execution engine.  You can pull from anywher
 >
 > echo "Completed"
 
+- Enable FSx for Lustre access. Its a filesystem that helps access the s3 bucket. its a vpc and has a storage capacity of 1.2 TB.
+- Install kubeflow using the kubeflow's aws yaml to geneerate the project and apply the changes. <<Similar to what I did for the GCP>>
 
+## BUILD TRAINING CONTAINER IMAGE AND PUSH IT TO ECR
+- logging into the ECR and building a docker container
+- in the example shown the docker container just copies the python scripts to a folder.
+
+## SUBMIT DISTRIBUTED TRAINING JOB
+- in the example they actually apply specs/eks_tf_training_job-cpu.yaml file.
+- In this yaml file it is just calling the python script: cifar10-multi-gpu-horovod-k8s.py
+- the yaml file is a MPIJob that actually runs the python script with the necessary parameters.
+
+#Kubeflow
+
+## Kubeflow Fairig
+- train inside of notebook and run it inside a cluster.
+- TrainJob
+- Prediction
+- Serving
+- using KFserving (default for kubeflow). Also there is TFXServing- 02_03_TFX_Serving.
+
+## Kubeflow Pipeline
+- ContainerOp
+- Creating experiments
+
+
+## TFJob / PytorchJob
+- distributed training 
+- kubeflow recognises the tfjob and pytorcjob
+- running these through yaml
+- using components to run reusable codes
+- components basically is python scripts that have been compile to a reusable yaml.
+  
+## Metadata/ Artifact
+- 05_00_Metadata_Tracking
+- kfmd
+- https://github.com/kubeflow/pipelines/blob/master/components/local/confusion_matrix/src/confusion_matrix.py
+- https://github.com/kubeflow/examples/blob/master/financial_time_series/tensorflow_model/run_train.py
+
+## HyperParameter Tuning
+- 06_00_Optimize_Hyper_Parameter_Tuning
+- Katib
+
+## Neural Architecture Search /NAS
+- Katib AutoML/ NAS Support
+
+## TFLite
+- 06_02_Optimize_TFLite
+- save the model
+- visualize the model with graph
+- alternate run time much smaller than normal tensorflow
+- Performance gain
+- how much accuracy are you willing to loose to save on space.
+
+## Privacy Differential
+- privacy budget
+- tensorflow privacy
+- wrap gradientDescnetOptimizer with the differential privacy optimizer
+- key is to finding the balance.
 
 
 
