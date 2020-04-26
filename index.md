@@ -19,12 +19,20 @@
 - [[MachineLearning/FastAI-PracticalDeepLearningForCoders]]
 
 # Books
-
+_Art of Postgrs_
 - [[Books/ArtOfPostgres/Art of Postgres]] - PartIV
 - [[Books/ArtOfPostgres/Art of Postgres - PartV]]
+_Thinking Fast and Slow_
 - [[Books/Thinking Fast and Slow/Part I]]
 - [[Books/Thinking Fast and Slow/Part II]]
 - [[Books/Thinking Fast and Slow/Part III]] 
 - [[Books/Thinking Fast and Slow/Part IV]]
 - [[Books/Thinking Fast and Slow/Part V]]
 - [[Books/Thinking Fast and Slow/Conclusion]]
+_Hands On Machine Learning with Scikit Learn and TensorFlow_
+- [[Books/Hands On Machine Learning/Part I]]]
+- [[Books/Hands On Machine Learning/Part II]]
+
+
+# Notes
+- [[Git(Pluralsight)]]
