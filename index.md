@@ -1,4 +1,4 @@
-#
+
 
 # Cheat Sheet
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
@@ -22,6 +22,7 @@ _Hands On Machine Learning with Scikit Learn and TensorFlow_
 - [[Books/Hands On Machine Learning/Part II]]
 _Project_
 - [[Projects/TwitterSentimentAnalysis]]
+
 # Books
 _Art of Postgrs_
 - [[Books/ArtOfPostgres/Art of Postgres]] - PartIV
@@ -38,3 +39,4 @@ _Thinking Fast and Slow_
 
 # Notes
 - [[Git(Pluralsight)]]
+- [work notes](work/notes)

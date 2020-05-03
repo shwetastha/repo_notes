@@ -51,11 +51,26 @@ By towards data science: https://towardsdatascience.com/creating-the-twitter-sen
 
 
 ### **_Section C: Pre-processing Tweets in The Data Sets_** :
-* 
-
+* Words matter the most in Sentiment Analysis
+* puntuations, url, usernames, emojis, images, videos don't give the polarity
+* esp on what we are trying to do
+* so remove them
+* import re -> regular expression
+* import ntlk -> Natural Processing Toolkit - to change the form of the text or extract certain components from it
+	* the class contructor removes stop word
+* normalize all the character to be in lower case
+* URLs and usernames are removed
+* '#' is removed
+* duplicate characters are corrected -> caaaaaaaaar - car
+* tweet's text is tokenized - to ease the processing
+* Note: the function will not remove duplicate words but only duplicate characters
+	* because duplicate words help in determining the polarity of the text 
 
 ### **_Section D: Naive Bayes Classifier_** :
+* Naive Bayes Calssifier is a classification algorithm that relies on the Bayes' Theorem
+* Bayes' Theorem : P(A|B) = P(B|A) * P(A) / P(B)
 * **_Step D.1: Building the vocabulary_** :
+	* 
 * **_Step D.2: Matching tweets against our vocabulary_** :
 * **_Step D.3: Building our feature vector_** :
 * **_Step D.4: Training the classifier_** :
@@ -73,4 +88,4 @@ By towards data science: https://towardsdatascience.com/creating-the-twitter-sen
 1. how to divide the data into the 3 sets?
 1. why tune the parameters? how does this train the model? what difference does this make in the model?
 1. in the training set what does it mean by adjusting the parameters?
-1. 
+1. what is stop words in natural language processing toolkit?
