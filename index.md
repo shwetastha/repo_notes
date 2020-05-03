@@ -17,11 +17,17 @@
 
 # Machine Learning
 - [[MachineLearning/FastAI-PracticalDeepLearningForCoders]]
+- [[MachineLearning/CourseraAndrewNgML/Plan]]
+- [[MachineLearnine/CourseraAndrewNgML/Week1/Intro]]
+- [[MachineLearning/CourseraAndrewNgML/Week1/LinearRegression1Var]]
+
 _Hands On Machine Learning with Scikit Learn and TensorFlow_
 - [[Books/Hands On Machine Learning/Part I]]]
 - [[Books/Hands On Machine Learning/Part II]]
+
 _Project_
 - [[Projects/TwitterSentimentAnalysis]]
+
 
 # Books
 _Art of Postgrs_
