@@ -20,6 +20,7 @@
 - [[MachineLearning/CourseraAndrewNgML/Plan]]
 - [[MachineLearnine/CourseraAndrewNgML/Week1/Intro]]
 - [[MachineLearning/CourseraAndrewNgML/Week1/LinearRegression1Var]]
+- [[MachineLearning/CourseraAndrewNgML/Week2/MultivariateLinearRegression]]
 
 _Hands On Machine Learning with Scikit Learn and TensorFlow_
 - [[Books/Hands On Machine Learning/Part I]]]
@@ -46,3 +47,13 @@ _Thinking Fast and Slow_
 # Notes
 - [[Git(Pluralsight)]]
 - [work notes](work/notes)
+
+# TMLS
+- [[tmls/20200616/Building_Open_source_datascience_platform]]
+- [[tmls/20200616/Kubeflow]]
+- [[tmls/20200617/ModelDebugging]]
+- [[tmls/20200617/SimplifyMLPipelineAutomationAndTrackingUsingKubeflow]]
+- [[tmls/20200617/DevOpsForML]]
+- [[tmls/20200617/Mutli-cloudUsingKubeflowPi]]
+- [[tmls/20200617/GithubActions]]
+- [[tmls/20200617/ModelServingInStreamingApplicationsl]]
