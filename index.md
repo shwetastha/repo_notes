@@ -57,3 +57,4 @@ _Thinking Fast and Slow_
 - [[tmls/20200617/Mutli-cloudUsingKubeflowPi]]
 - [[tmls/20200617/GithubActions]]
 - [[tmls/20200617/ModelServingInStreamingApplicationsl]]
+- [[tmls/20200618/SmartDataProducts]]
